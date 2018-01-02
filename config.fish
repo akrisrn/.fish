@@ -23,7 +23,7 @@ set proxy_auth false
 # }
 
 # bobthefish主题右侧时间显示
-set -g theme_date_format "+%T %D"
+set -g theme_date_format "+%T"
 
 # WSL启动时执行tmux配置
 if test -z "$TMUX"; and test -n "$USE_TMUX"

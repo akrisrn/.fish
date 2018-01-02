@@ -30,8 +30,7 @@ set proxy_auth false
 # WSL启动时执行tmux配置
 if test -z "$TMUX"; and test -n "$USE_TMUX"
     if test -n "$ATTACH_ONLY"
-        if tmux a 2>/dev/null
-        else
+        if not tmux a 2>/dev/null
             cd; and exec tmux
         end
         exit

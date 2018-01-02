@@ -21,6 +21,9 @@ set proxy_host 127.0.0.1:1080
 set proxy_auth false
 # }
 
+# bobthefish主题右侧时间显示
+set -g theme_date_format "+%R %D"
+
 # WSL启动时执行tmux配置
 if test -z "$TMUX"; and test -n "$USE_TMUX"
     if test -n "$ATTACH_ONLY"

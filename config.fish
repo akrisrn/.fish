@@ -4,6 +4,7 @@ fundle plugin 'oh-my-fish/plugin-proxy'
 fundle plugin 'oh-my-fish/plugin-hash'
 fundle plugin 'oh-my-fish/plugin-vundle'
 fundle plugin 'tuvistavie/oh-my-fish-core'
+fundle plugin 'tuvistavie/fish-fastdir'
 fundle init
 # }
 

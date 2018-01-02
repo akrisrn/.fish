@@ -16,12 +16,6 @@ set -x knowledgecs 47.74.2.154
 set -x li158835 139.162.104.35
 # }
 
-# 别名 {
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
-# }
-
 # proxy插件配置 {
 set proxy_host 127.0.0.1:1080
 set proxy_auth false

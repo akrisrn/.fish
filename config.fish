@@ -13,12 +13,6 @@ fundle init
 # 设置shell语言
 set -x LANG zh_CN.UTF-8
 
-# 服务器ip {
-set -x alicecs 120.77.156.58
-set -x knowledgecs 47.74.2.154
-set -x li158835 139.162.104.35
-# }
-
 # proxy插件配置 {
 set proxy_host 127.0.0.1:1080
 set proxy_auth false

@@ -24,7 +24,7 @@ set -g theme_date_format "+%T"
 # 添加不纳入git的自定义函数目录
 set fish_function_path $fish_function_path ~/.config/fish/functions/customs
 
-# WSL启动时执行tmux配置
+# wsl-terminal启动时运行tmux
 if test -z "$TMUX"; and test -n "$USE_TMUX"
     if test -n "$ATTACH_ONLY"
         if not tmux a 2>/dev/null

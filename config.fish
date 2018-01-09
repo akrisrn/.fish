@@ -8,6 +8,7 @@ fundle plugin 'tuvistavie/fish-fastdir'
 fundle plugin 'fisherman/z'
 fundle plugin 'fisherman/getopts'
 fundle plugin 'akrisrn/pureya'
+fundle plugin 'akrisrn/fish-wsl-terminal-tmux'
 fundle init
 # }
 
@@ -25,16 +26,3 @@ set -g theme_date_format "+%T"
 # 添加不纳入git的自定义函数目录
 set fish_function_path ~/.config/fish/functions/customs $fish_function_path
 
-# wsl-terminal启动时运行tmux
-if test -z "$TMUX"; and test -n "$USE_TMUX"
-    if test -n "$ATTACH_ONLY"
-        if not tmux a 2>/dev/null
-            cd; and exec tmux
-        end
-        exit
-    end
-
-    tmux new-window -c "$PWD" 2>/dev/null; and exec tmux a
-    exec tmux
-end
-# }

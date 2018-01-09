@@ -7,7 +7,7 @@ fundle plugin 'tuvistavie/oh-my-fish-core'
 fundle plugin 'tuvistavie/fish-fastdir'
 fundle plugin 'fisherman/z'
 fundle plugin 'fisherman/getopts'
-fundle plugin 'akrisrn/pureya'
+fundle plugin 'akrisrn/fish-pureya'
 fundle plugin 'akrisrn/fish-wsl-terminal-tmux'
 fundle init
 # }

@@ -23,7 +23,7 @@ set proxy_auth false
 set -g theme_date_format "+%T"
 
 # 添加不纳入git的自定义函数目录
-set fish_function_path $fish_function_path ~/.config/fish/functions/customs
+set fish_function_path ~/.config/fish/functions/customs $fish_function_path
 
 # wsl-terminal启动时运行tmux
 if test -z "$TMUX"; and test -n "$USE_TMUX"

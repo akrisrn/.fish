@@ -7,6 +7,7 @@ fundle plugin 'tuvistavie/oh-my-fish-core'
 fundle plugin 'tuvistavie/fish-fastdir'
 fundle plugin 'fisherman/z'
 fundle plugin 'fisherman/getopts'
+fundle plugin 'akrisrn/fish-gitignore'
 fundle plugin 'akrisrn/fish-ls'
 fundle plugin 'akrisrn/fish-pureya'
 fundle init

@@ -12,6 +12,9 @@ fundle plugin 'akrisrn/fish-pureya'
 fundle init
 # }
 
+# 禁用virtualenv的提示符
+set -x VIRTUAL_ENV_DISABLE_PROMPT 1
+
 # 设置shell语言
 set -x LANG zh_CN.UTF-8
 

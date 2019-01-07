@@ -1,0 +1,1 @@
+/home/alice/.fzf/shell/key-bindings.fish

@@ -26,6 +26,10 @@ set proxy_auth false
 # bobthefish主题右侧时间显示
 set -g theme_date_format "+%T"
 
-# 添加不纳入git的自定义函数目录
+# 添加不纳入git的本地函数目录
 set fish_function_path ~/.config/fish/functions/customs $fish_function_path
 
+# 载入本地fish配置文件
+if test -e ~/.fishrc
+	source ~/.fishrc
+end

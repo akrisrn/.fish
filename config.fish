@@ -16,7 +16,7 @@ fundle init
 set -x VIRTUAL_ENV_DISABLE_PROMPT 1
 
 # 设置shell语言
-set -x LANG zh_CN.UTF-8
+set -x LANG en_US.UTF-8
 
 # proxy插件配置 {
 set proxy_host 127.0.0.1:1080

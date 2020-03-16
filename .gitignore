@@ -1,5 +1,6 @@
 *.swp
 fish_history
+fish_variables
 fishd.*
 fundle/
 functions/customs/
